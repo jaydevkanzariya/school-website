@@ -1,0 +1,183 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.navbar{
+    display: flex;
+    background-color:  gainsboro;
+    height: 130px;
+    width: 100%;
+    position: sticky !important;
+}
+
+.menu ul{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    margin-left: -8%;
+    /* margin-top: -60%; */
+    font-size: 1.5rem;
+    margin-top: 60px;
+}
+
+.menu ul li{
+    list-style: none;
+    padding: 20px;
+}
+
+.menu ul li a{
+   color: navy;
+    text-decoration: none;
+    list-style: none;
+    font-weight: bold;
+}
+
+.menu ul li a:hover{
+    border-bottom: 5px solid coral;
+    color: coral;
+}
+
+h1{
+    color:  #163269;
+}
+
+.logo img{
+    margin-left: 10px;
+    border-radius: 10%;
+    margin-top: -30%;
+}
+.dd{
+    margin-top: 5px;
+    margin-left: 50px;
+    color: rgb(61, 177, 102);
+}
+
+.btn-m{
+   position: absolute;
+   top: 10px;
+   right: 10px;
+}
+
+.btn-l{
+    margin-top: 0%;
+    margin-top: -14%;
+    /* margin-right: -50%; */
+    margin-bottom: 10px;
+    padding: 3px;
+    border-radius: 5px;
+    font-weight: bold;
+    color: black;
+    background-color: rgb(61, 177, 102);
+    border: 2px solid black;
+}
+
+.btn-l:hover{
+    background-color: coral;
+    color: white;
+}
+
+.btn-s{
+    padding: 0 5px;
+    border-radius: 5px;
+    background-color: wheat;
+}
+
+.btn-t{
+    border-radius: 5px 15px 5px 15px;
+}
+
+.btn-t:hover{
+    background-color: #363636;
+    color: white;
+}
+
+
+.s-name{
+    position:absolute;
+    text-align: center;
+    top: 4px;
+    left: 120px;
+}
+
+.nh1{
+    text-align: center;
+    border: 2px solid wheat;
+    padding: 10px 0;
+    border-radius: 5px;
+    background-color: wheat;
+    color: black;
+}
+
+.a-flex{
+    margin-top: 15px;
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    width: 90%;
+    height: 750px;
+    margin-left: 80px;
+    color: white;
+    background-color: wheat;
+    padding-left: 15px;
+    text-align: left;
+    gap: 50px;
+}
+
+
+
+
+
+ 
+footer{
+    display: flex;
+    background-color: #363636;
+    height: 80px;
+    }
+    
+    .follow{
+    position: absolute;
+    right: 20px;
+    text-align: center;
+    }
+    
+    .footer-text{
+    text-align: end;
+    color: white;
+    margin-left: 50px;
+    margin-top: 20px;
+    }
+    
+    .icon {
+    font-size: 30px;
+    margin: 5px 10px;
+    cursor: pointer;
+    color: aliceblue;
+    }
+    
+    .icon:hover{
+    color: coral;
+    }
+    
+    .ft-1{
+    display: flex;
+    background-color: black;
+    height: 250px;
+    color: white;
+    margin-top: 15px;
+    }
+    
+    .ft-2{
+    margin-left: 70px;
+    margin-top: 25px;
+    }
+    
+    .map{
+    width: 818px;
+    height: 200px;
+    margin-left: 65px;
+    margin-bottom: 15px;
+    margin-top: 15px;
+    border-radius: 5px;
+    }
